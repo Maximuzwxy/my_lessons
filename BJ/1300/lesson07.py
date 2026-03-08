@@ -1,0 +1,125 @@
+# print all the factors of a number
+# num = int(input('n: '))
+# i = 1
+#
+# while i <= num:
+#     if num % i == 0:
+#         print(i)
+#     i += 1
+
+# Harmonic series(调和级数)
+# Calculate the sum of a sequence in the form: 1, 1/2, 1/3, ..., 1/n
+# Continuously increase the value of n until the sum of the sequence exceeds 5
+# n = 0
+# sums = 0
+# while sums <= 5:
+#     n += 1
+#     sums += 1/n
+# print(n, sums)
+
+
+# Output all perfect square numbers up to n
+# n = int(input('n: '))
+#
+# i = 1
+# while i * i <= n:
+#     print(i ** 2)
+#     i += 1
+
+
+# the mount everest problem
+# height = 1
+# count = 0
+#
+# while height <= 8848000:
+#     height *= 2
+#     count += 1
+# print(count, height)
+
+
+# the falling ball problem
+height = 100
+n = 0
+
+while height >= 0.5:
+    height /= 2
+    n += 1
+print(n, height)
+
+
+# number reversal
+# origin = int(input('n: '))
+# reversed_num = 0
+#
+# while origin > 0:
+#     last_digit = origin % 10
+#     reversed_num = reversed_num * 10 + last_digit
+#     origin = origin // 10
+# print(reversed_num)
+
+
+# juice dilution
+# count = 0
+# cur_concentration = 100
+# target_concentration = int(input('target concentration: '))
+#
+# while cur_concentration > target_concentration:
+#     count += 1
+#     cur_concentration *= 0.9
+#
+# print(count, cur_concentration)
+
+
+# cow eating grass problem
+# cur_grass = 100
+# daily_consume = 3 * 4
+# daily_grow = 5
+# day = 0
+#
+# while True:
+#     cur_grass -= daily_consume
+#     day += 1
+#     if cur_grass <= 0:
+#         cur_grass += daily_consume
+#         break
+#     cur_grass += daily_grow
+# print(day, cur_grass)
+
+
+
+
+
+# # 输入处理：获取初始青草重量（正整数）
+# initial_grass = int(input("请输入牧场初始青草重量（公斤）："))
+#
+# # 初始化变量
+# current_grass = initial_grass
+# daily_consume = 3 * 4
+# daily_grow = 5
+# days = 0
+#
+# # while 循环模拟过程
+# while current_grass >= daily_consume:
+#     current_grass -= daily_consume
+#     days += 1
+#     current_grass += daily_grow
+#
+# # 输出结果
+# print(f"牧场青草能让3头牛吃饱 {days} 天")
+# if current_grass > 0:
+#     print(f"含最后一天吃不饱，总共维持 {days + 1} 天")
+#     print(cur_grass)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
