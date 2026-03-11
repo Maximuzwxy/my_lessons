@@ -50,12 +50,12 @@
 # print(s[10])
 # print(s[-1])
 
-s = 'hello\nworld'
-print(s)
-
-s = '''hello
-world'''
-print(s)
+# s = 'hello\nworld'
+# print(s)
+#
+# s = '''hello
+# world'''
+# print(s)
 
 # s = 'He said, \"what\'s there?\"'
 # print(s)
@@ -90,7 +90,7 @@ print(s)
 # print(s[8::2])
 # print(s[-5::3])
 
-# s = 'hellow world'
+# s = 'hello world'
 # s[0] = 'H'
 # print(s)
 
@@ -111,5 +111,26 @@ print(s)
 # print(id(lst))
 # print(lst)
 
+# homework
+# hw = str(input())
+# if hw[0:len(hw)-1] == hw[len(hw):0:-1]:
+#     print('True')
+# else:
+#     print('False')
 
+# path = "C:\\Users\\Alice\\Documents\\homework.txt"
+# print(path)
+# print(path.split("\\"))
 
+s = input('s: ')
+s_encode = ''
+s_decode = ''
+for i in s:
+    s_encode += chr(ord(i) + 3)
+
+print(s_encode)
+
+for i in s_encode:
+    s_decode += chr(ord(i) - 3)
+
+print(s_decode)
